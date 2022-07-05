@@ -1,0 +1,21 @@
+source url : https://github.com/laraveller/laravel-employees-management/tree/main/public/js
+ template source: https://startbootstrap.com/theme/sb-admin-2
+
+https://github.com/laravel/ui
+
+php artisan ui bootstrap --auth
+
+composer require laravel/ui
+ 
+make all model with migrate command
+
+php artisan make:model -m
+
+// this command is used only for create a table:
+php artisan make:migration create_tablename_table
+
+
+
+for template getting there:
+
+fontawesome cdn:
